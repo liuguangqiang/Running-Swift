@@ -7,14 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		07D21A311F6958A1002FA0EC /* MainTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07D21A301F6958A1002FA0EC /* MainTabViewController.swift */; };
+		07D21A351F695AF8002FA0EC /* MeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07D21A331F695AF8002FA0EC /* MeViewController.swift */; };
+		07D21A361F695AF8002FA0EC /* MeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 07D21A341F695AF8002FA0EC /* MeViewController.xib */; };
+		07D21A391F696007002FA0EC /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07D21A381F696007002FA0EC /* UIColor+Extension.swift */; };
+		07D21A3D1F6AB053002FA0EC /* StepsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07D21A3B1F6AB053002FA0EC /* StepsViewController.swift */; };
+		07D21A3E1F6AB053002FA0EC /* StepsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 07D21A3C1F6AB053002FA0EC /* StepsViewController.xib */; };
+		07D21A421F6AB0FC002FA0EC /* SportViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07D21A401F6AB0FC002FA0EC /* SportViewController.swift */; };
+		07D21A431F6AB0FC002FA0EC /* SportViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 07D21A411F6AB0FC002FA0EC /* SportViewController.xib */; };
 		07FEB66C1F69508F007A7B9B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07FEB66B1F69508F007A7B9B /* AppDelegate.swift */; };
 		07FEB66E1F69508F007A7B9B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07FEB66D1F69508F007A7B9B /* ViewController.swift */; };
 		07FEB6711F69508F007A7B9B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07FEB66F1F69508F007A7B9B /* Main.storyboard */; };
 		07FEB6731F69508F007A7B9B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07FEB6721F69508F007A7B9B /* Assets.xcassets */; };
 		07FEB6761F69508F007A7B9B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07FEB6741F69508F007A7B9B /* LaunchScreen.storyboard */; };
+		2939E35BDF920DE0BB6E72FF /* Pods_running.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19984F8468BB2EFB35C63E02 /* Pods_running.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		07D21A301F6958A1002FA0EC /* MainTabViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MainTabViewController.swift; path = ViewControllers/MainTabViewController.swift; sourceTree = "<group>"; };
+		07D21A331F695AF8002FA0EC /* MeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MeViewController.swift; path = ViewControllers/MeViewController.swift; sourceTree = "<group>"; };
+		07D21A341F695AF8002FA0EC /* MeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MeViewController.xib; path = ViewControllers/MeViewController.xib; sourceTree = "<group>"; };
+		07D21A381F696007002FA0EC /* UIColor+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
+		07D21A3B1F6AB053002FA0EC /* StepsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = StepsViewController.swift; path = ViewControllers/StepsViewController.swift; sourceTree = "<group>"; };
+		07D21A3C1F6AB053002FA0EC /* StepsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = StepsViewController.xib; path = ViewControllers/StepsViewController.xib; sourceTree = "<group>"; };
+		07D21A401F6AB0FC002FA0EC /* SportViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SportViewController.swift; path = ViewControllers/SportViewController.swift; sourceTree = "<group>"; };
+		07D21A411F6AB0FC002FA0EC /* SportViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SportViewController.xib; path = ViewControllers/SportViewController.xib; sourceTree = "<group>"; };
 		07FEB6681F69508F007A7B9B /* running.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = running.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		07FEB66B1F69508F007A7B9B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		07FEB66D1F69508F007A7B9B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +39,9 @@
 		07FEB6721F69508F007A7B9B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		07FEB6751F69508F007A7B9B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		07FEB6771F69508F007A7B9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		15BC57288BD058E70AA1B5BE /* Pods-running.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-running.release.xcconfig"; path = "Pods/Target Support Files/Pods-running/Pods-running.release.xcconfig"; sourceTree = "<group>"; };
+		19984F8468BB2EFB35C63E02 /* Pods_running.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_running.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6FD4173F782F2DD058215E94 /* Pods-running.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-running.debug.xcconfig"; path = "Pods/Target Support Files/Pods-running/Pods-running.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +49,74 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2939E35BDF920DE0BB6E72FF /* Pods_running.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		07D21A2E1F69580C002FA0EC /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				07D21A3F1F6AB0E6002FA0EC /* Sport */,
+				07D21A3A1F6AB041002FA0EC /* Steps */,
+				07D21A321F695ACF002FA0EC /* Me */,
+				07D21A2F1F69582D002FA0EC /* Main */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		07D21A2F1F69582D002FA0EC /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				07D21A301F6958A1002FA0EC /* MainTabViewController.swift */,
+			);
+			name = Main;
+			sourceTree = "<group>";
+		};
+		07D21A321F695ACF002FA0EC /* Me */ = {
+			isa = PBXGroup;
+			children = (
+				07D21A331F695AF8002FA0EC /* MeViewController.swift */,
+				07D21A341F695AF8002FA0EC /* MeViewController.xib */,
+			);
+			name = Me;
+			sourceTree = "<group>";
+		};
+		07D21A371F695FC7002FA0EC /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				07D21A381F696007002FA0EC /* UIColor+Extension.swift */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+		07D21A3A1F6AB041002FA0EC /* Steps */ = {
+			isa = PBXGroup;
+			children = (
+				07D21A3B1F6AB053002FA0EC /* StepsViewController.swift */,
+				07D21A3C1F6AB053002FA0EC /* StepsViewController.xib */,
+			);
+			name = Steps;
+			sourceTree = "<group>";
+		};
+		07D21A3F1F6AB0E6002FA0EC /* Sport */ = {
+			isa = PBXGroup;
+			children = (
+				07D21A401F6AB0FC002FA0EC /* SportViewController.swift */,
+				07D21A411F6AB0FC002FA0EC /* SportViewController.xib */,
+			);
+			name = Sport;
+			sourceTree = "<group>";
+		};
 		07FEB65F1F69508F007A7B9B = {
 			isa = PBXGroup;
 			children = (
 				07FEB66A1F69508F007A7B9B /* running */,
 				07FEB6691F69508F007A7B9B /* Products */,
+				132E28CFDC8E5D0C6A8F2E56 /* Pods */,
+				0E25C9A66C51DDAC88BAC93D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,6 +131,8 @@
 		07FEB66A1F69508F007A7B9B /* running */ = {
 			isa = PBXGroup;
 			children = (
+				07D21A371F695FC7002FA0EC /* Extensions */,
+				07D21A2E1F69580C002FA0EC /* ViewControllers */,
 				07FEB66B1F69508F007A7B9B /* AppDelegate.swift */,
 				07FEB66D1F69508F007A7B9B /* ViewController.swift */,
 				07FEB66F1F69508F007A7B9B /* Main.storyboard */,
@@ -64,6 +143,23 @@
 			path = running;
 			sourceTree = "<group>";
 		};
+		0E25C9A66C51DDAC88BAC93D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				19984F8468BB2EFB35C63E02 /* Pods_running.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		132E28CFDC8E5D0C6A8F2E56 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6FD4173F782F2DD058215E94 /* Pods-running.debug.xcconfig */,
+				15BC57288BD058E70AA1B5BE /* Pods-running.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -71,9 +167,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 07FEB67A1F69508F007A7B9B /* Build configuration list for PBXNativeTarget "running" */;
 			buildPhases = (
+				6B365F4C95062E1485FCFEDF /* [CP] Check Pods Manifest.lock */,
 				07FEB6641F69508F007A7B9B /* Sources */,
 				07FEB6651F69508F007A7B9B /* Frameworks */,
 				07FEB6661F69508F007A7B9B /* Resources */,
+				C85B760002384908A3934D7A /* [CP] Embed Pods Frameworks */,
+				EE330F72A8D251B3AA8BD91D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -124,13 +223,64 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				07D21A3E1F6AB053002FA0EC /* StepsViewController.xib in Resources */,
 				07FEB6761F69508F007A7B9B /* LaunchScreen.storyboard in Resources */,
 				07FEB6731F69508F007A7B9B /* Assets.xcassets in Resources */,
+				07D21A431F6AB0FC002FA0EC /* SportViewController.xib in Resources */,
+				07D21A361F695AF8002FA0EC /* MeViewController.xib in Resources */,
 				07FEB6711F69508F007A7B9B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6B365F4C95062E1485FCFEDF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C85B760002384908A3934D7A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-running/Pods-running-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EE330F72A8D251B3AA8BD91D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-running/Pods-running-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		07FEB6641F69508F007A7B9B /* Sources */ = {
@@ -139,6 +289,11 @@
 			files = (
 				07FEB66E1F69508F007A7B9B /* ViewController.swift in Sources */,
 				07FEB66C1F69508F007A7B9B /* AppDelegate.swift in Sources */,
+				07D21A351F695AF8002FA0EC /* MeViewController.swift in Sources */,
+				07D21A311F6958A1002FA0EC /* MainTabViewController.swift in Sources */,
+				07D21A3D1F6AB053002FA0EC /* StepsViewController.swift in Sources */,
+				07D21A391F696007002FA0EC /* UIColor+Extension.swift in Sources */,
+				07D21A421F6AB0FC002FA0EC /* SportViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,6 +414,7 @@
 		};
 		07FEB67B1F69508F007A7B9B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6FD4173F782F2DD058215E94 /* Pods-running.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = JS6L6J8588;
@@ -272,6 +428,7 @@
 		};
 		07FEB67C1F69508F007A7B9B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 15BC57288BD058E70AA1B5BE /* Pods-running.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = JS6L6J8588;
@@ -302,6 +459,7 @@
 				07FEB67C1F69508F007A7B9B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
